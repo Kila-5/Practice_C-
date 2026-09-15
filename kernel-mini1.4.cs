@@ -15,8 +15,8 @@ public class Circle
 
   public void PrintInfo()
   {
-    Console.WriteLine($"Радиус: {_radius}");
-    Console.WriteLine($"Площадь: {Area}");
-    Console.WriteLine($"Длинна окружности: {Circumference}");
+    Console.WriteLine($"Радиус: {_radius:F2}");
+    Console.WriteLine($"Площадь: {Area:F2}");
+    Console.WriteLine($"Длинна окружности: {Circumference:F2}");
   }
 }
